@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HR190017_BurakYasinUgurerFinal</string>
+    <string name="dabbeserileri">Dabbe Film Serileri</string>
+    <string name="title">İnternet Bağlantısı bulunamadı.</string>
+    <string name="cikisdiyalogu">Uygulamayı kullanmak için internete bağlayın</string>
+    <string name="Kapat">Kapat</string>
+    <string name="Evet">Evet</string>
+    <string name="Internetayarlarınagit">İnternet ayarlarına git</string>
+    <string name="onbackpressedtitle">Çıkış</string>
+    <string name="onbackpressedmessage">Uygulamayı kapatmak istiyor musunuz?</string>
+    <string name="onbackpressednegative">Kapat</string>
+    <string name="onbackpressedpositive">İptal</string>
+    <string name="progressdialogutilmessage">Liste ekranı yükleniyor. Lütfen bekleyiniz..</string>
+    <string name="filmDetayActivityCikisTarihi">Çıkış Tarihi: </string>
+    <string name="filmDetayActivityOyuncuları">Oyuncuları: </string>
+    <string name="filmDetayActivityYönetmeni">Yönetmeni: </string>
+    <string name="filmdetaytxt">BAŞLIK</string>
+    <string name="filmdetaytxt1">ornek</string>
+    <string name="filmdetaytxt2">ornek</string>
+    <string name="filmdetaytxt3">ornek</string>
+    <string name="filmdetaytxt4">ornek</string>
+    <string name="cardViewtarih">ornek</string>
+    <string name="cardviewBaslik">ornek</string>
+
+</resources>

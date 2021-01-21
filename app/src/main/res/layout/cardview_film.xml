@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardivew_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardviewrenk">
+
+            <ImageView
+                android:id="@+id/imgFilmLogo"
+                android:layout_width="@dimen/imgFilmLogoLayout_width"
+                android:layout_height="@dimen/imgFilmLogoLayout_height"
+                android:layout_marginStart="@dimen/CardViewLayout_margin"
+                android:layout_marginTop="@dimen/CardViewLayout_margin"
+                android:layout_marginBottom="@dimen/CardViewLayout_margin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtFilmAdi"
+                android:layout_width="@dimen/txtFilmAdiLayout_width"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/CardViewLayout_margin"
+                android:text="@string/cardviewBaslik"
+                android:textColor="@color/FilmAdiTextView"
+                android:textSize="@dimen/txtFilmAdiTextSize"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgFilmLogo"
+                app:layout_constraintTop_toTopOf="@+id/imgFilmLogo" />
+
+            <TextView
+                android:id="@+id/txtTarih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/CardViewLayout_margin"
+                android:textColor="@color/cardViewtxtTarihColor"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/txtFilmAdi"
+                app:layout_constraintTop_toBottomOf="@+id/txtFilmAdi"
+                tools:text="@string/cardViewtarih" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

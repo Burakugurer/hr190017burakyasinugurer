@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardviewrenk"
+    tools:context=".Activity.FilmDetayActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageKapak"
+                android:layout_width="@dimen/imgKapaklayout_width"
+                android:layout_height="@dimen/imgKapaklayout_height"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/banner" />
+
+            <TextView
+                android:id="@+id/txtBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activityFilmDetayTxtPadding"
+                android:text="@string/filmdetaytxt"
+                android:textAlignment="center"
+                android:textColor="@color/FilmAdiTextView"
+                android:textSize="@dimen/txtBaslikTextSize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtYonetmen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activityFilmDetayTxtPadding"
+                android:text="@string/filmdetaytxt1"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="@dimen/txtYonetmenTextSize" />
+
+            <TextView
+                android:id="@+id/txtOyuncular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activityFilmDetayTxtPadding"
+                android:text="@string/filmdetaytxt2"
+                android:textColor="@color/FilmBaslikTextView"
+                android:textSize="@dimen/txtOyuncularTextSize" />
+
+            <TextView
+                android:id="@+id/txtTarih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activityFilmDetayTxtPadding"
+                android:text="@string/filmdetaytxt3"
+                android:textColor="@color/cardViewtxtTarihColor"
+                android:textSize="@dimen/txtTarihTextSize" />
+
+            <TextView
+                android:id="@+id/txtKonu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activityFilmDetayTxtPadding"
+                android:text="@string/filmdetaytxt4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txtKonuTextSize"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

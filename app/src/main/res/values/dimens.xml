@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<dimen name="cardivew_padding">16dp</dimen>
+    <dimen name="imgKapaklayout_width">412dp</dimen>
+    <dimen name="imgKapaklayout_height">173dp</dimen>
+    <dimen name="rcvFilmlerLayout_height">0dp</dimen>
+    <dimen name="girisLogoLayout_width">227dp</dimen>
+    <dimen name="girisLogoLayout_height">215dp</dimen>
+    <dimen name="imgFilmLogoLayout_width">100dp</dimen>
+    <dimen name="imgFilmLogoLayout_height">100dp</dimen>
+    <dimen name="imgFilmLogoStartMargin">109dp</dimen>
+    <dimen name="imgFilmLogoEndMargin">110dp</dimen>
+    <dimen name="imgFilmLogoTopMargin">228dp</dimen>
+    <dimen name="imgFilmLogoBottomMargin">288dp</dimen>
+    <dimen name="txtFilmAdiLayout_width">0dp</dimen>
+    <dimen name="CardViewLayout_margin">16dp</dimen>
+    <dimen name="activityFilmDetayTxtPadding">10dp</dimen>
+    <dimen name="txtBaslikTextSize">30sp</dimen>
+    <dimen name="txtYonetmenTextSize">24sp</dimen>
+    <dimen name="txtOyuncularTextSize">20sp</dimen>
+    <dimen name="txtTarihTextSize">16sp</dimen>
+    <dimen name="txtKonuTextSize">17sp</dimen>
+    <dimen name="txtFilmAdiTextSize">30sp</dimen>
+    <dimen name="dabbefilmserileritxt">27sp</dimen>
+    <dimen name="dabblefilmserileritopmargin">15dp</dimen>
+</resources>
