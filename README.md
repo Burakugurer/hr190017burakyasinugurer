@@ -1,4 +1,4 @@
-# hr190017burakyasinugurer
+
 
 ![](resimler/logo.png)
 
