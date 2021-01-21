@@ -1,13 +1,12 @@
 
 
-![](resimler/logo.png)
+![](resimler/logoo.png)
 
 <h1> Uygulama Hakkında Bilgi</h1>
 <h5>Projemiz 6 seriden oluşan "DABBE" adlı filmi konu almaktadır.Bu film serisi hakkında bilgi almak için Liste ekranında bulunan yuvarlak resimlere tıklayarak bilgi alabilirsiniz.Bilgilerin içeriği Çıkış tarihi,konusu,oyuncuları,yönetmeni gibi temel bilgilerdir</h5>
 <h1> Uygulamanın Ekran Çıktıları</h1>
 
 ![](resimler/kolaj.jpg)
-
 <h1> Projenin Mimari Yapısı</h1>
 
 ![](resimler/MimariYapi.PNG)
